@@ -17,7 +17,10 @@ public class AddFractionsTest {
     }
 
     private static class Fraction {
+        private final int integerValue;
+
         public Fraction(int integerValue) {
+            this.integerValue = integerValue;
         }
 
         public Fraction plus(Fraction other) {
@@ -25,7 +28,7 @@ public class AddFractionsTest {
         }
 
         public int intValue() {
-            return 0;
+            return integerValue;
         }
     }
 }
