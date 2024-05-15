@@ -15,11 +15,11 @@ public class AddFractionsTest {
         }
 
         public Fraction plus(Fraction other) {
-            return null;
+            return this;
         }
 
         public int intValue() {
-            return -1;
+            return 0;
         }
     }
 }
